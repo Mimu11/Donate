@@ -1,7 +1,30 @@
+.top {
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    padding: 100px;
+
+
+
+
+
+
+
+}
+
+.color {
+    color: white;
+}
+
+#opac {
+    color: aliceblue;
+}
+
 body {
     font-family: "Poppins", sans-serif;
     text-align: center;
-    margin: 70px 70px 70px 70px;
+    margin: 70px 90px 70px 90px;
+
 }
 
 h1 {
@@ -15,4 +38,106 @@ h1 {
     color: white;
     padding: 10px 30px;
     border-radius: 5%;
+    margin-top: 40px;
+
+
+}
+
+.border {
+    color: tomato;
+    border: 5px solid tomato;
+    padding: 30px;
+    border-width: 3px;
+    margin-left: 20px;
+
+}
+
+#opacity2 {
+    margin-bottom: 40px;
+}
+
+
+#opacity1 {
+    color: rgb(123, 131, 137);
+    margin: 30px 60px 30px 60px;
+}
+
+#opacity {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: rgb(120, 135, 135);
+    text-decoration: underline;
+
+}
+
+h2 {
+    display: inline-block;
+    margin: 20px;
+    color: rgb(78, 74, 74);
+}
+
+.plan {
+    margin: 90px;
+}
+
+.flex {
+    display: flex;
+
+}
+
+.first {
+    background-color: antiquewhite;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid white;
+    margin-right: 15px;
+    padding: 50px 10px 50px 10px;
+    border-radius: 10px;
+}
+
+.second {
+    background-color: rgb(223, 217, 208);
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid white;
+    margin-right: 15px;
+    padding: 50px 10px 50px 10px;
+    border-radius: 10px;
+}
+
+.third {
+    background-color: rgb(200, 200, 200);
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid white;
+    margin-right: 15px;
+    padding: 50px 10px 50px 10px;
+    border-radius: 10px;
+}
+
+#background {
+    background-color: rgb(200, 232, 245);
+    border: 0px;
+    padding: 15px 70px 15px 70px;
+    color: rgb(93, 91, 91);
+
+}
+
+#backk {
+    background-color: tomato;
+    border: 0px;
+    color: white;
+    padding: 15px 50px 15px 50px;
+}
+
+.last {
+    margin-top: 90px;
+
+}
+
+.marg {
+    margin-bottom: 80px;
 }
