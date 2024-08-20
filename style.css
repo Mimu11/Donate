@@ -18,7 +18,10 @@
 
 #opac {
     color: aliceblue;
-    margin-bottom: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+
 }
 
 body {
@@ -64,10 +67,13 @@ h1 {
 }
 
 
-#opacity1 {
-    color: rgb(123, 131, 137);
-    margin: 30px 60px 30px 60px;
+.opacity1 {
+    color: rgb(102, 104, 106);
+    margin-left: 150px;
+    margin-right: 150px;
 }
+
+
 
 #opacity {
     margin-top: 40px;
@@ -88,35 +94,50 @@ h2 {
 
 .flex {
     display: flex;
+
 }
 
 .first {
     background-color: antiquewhite;
     text-align: left;
     border: 1px solid white;
-
+    margin-left: 150px;
+    margin-right: 10px;
     border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 15px;
+    width: 500px;
+    height: 350px;
 
 }
 
 .second {
     background-color: rgb(223, 217, 208);
     text-align: left;
-
+    padding-left: 20px;
+    padding-top: 15px;
+    width: 500px;
     border: 1px solid white;
     border-radius: 10px;
+    margin-right: 10px;
 }
 
 .third {
     background-color: rgb(200, 200, 200);
     text-align: left;
     border: 1px solid white;
-
+    padding-left: 20px;
+    padding-top: 15px;
+    width: 500px;
     border-radius: 10px;
+    margin-right: 150px;
 }
+
+
 
 .flexx {
     display: flex;
+    margin-right: 170px;
 }
 
 #pad {
@@ -128,12 +149,11 @@ h2 {
     text-align: left;
     margin-top: 50px;
     margin-left: 170px;
+    margin-right: 110px;
 
 }
 
-#play {
-    margin-top: 200px;
-}
+
 
 #idd {
     margin-bottom: 40px;
@@ -142,20 +162,34 @@ h2 {
 .need {
     display: flex;
     margin-top: 150px;
+    margin-left: 70px;
 
 }
 
 .imag {
     margin-left: 100px;
-
 }
 
-#padd {}
+.how {
+    margin-right: 190px;
+    text-align: justify;
+    margin-left: 60px;
+}
+
+#op {
+    margin-bottom: 50px;
+}
+
+.depend {
+    padding-right: 100px;
+    margin-bottom: 50px;
+}
 
 .pic {
-    margin-left: 10px;
+
     margin-top: 160px;
-    width: 50%;
+
+
 }
 
 #background {
