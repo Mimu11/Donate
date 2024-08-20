@@ -1,3 +1,10 @@
+body {
+    margin: 0%;
+    font-size: 12px;
+    width: 100%;
+
+}
+
 .top {
     background-image: url(images/two-hands-exchanging-item-symbolizing-help-support-closeup-hands-warm-clothing-autumn-background-generosity-care-giving-assistance-generative-by-ai_855332-9372.jpg);
     background-repeat: no-repeat;
@@ -6,12 +13,6 @@
     padding: 80px 120px 80px 120px;
 
 }
-
-.topp {
-    margin: auto;
-}
-
-.body {}
 
 .color {
     color: rgb(255, 255, 255);
