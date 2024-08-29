@@ -1,6 +1,9 @@
 .body {
 
-    margin: auto;
+    margin: 0px;
+
+
+
 
 }
 
@@ -9,7 +12,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 80px 120px 80px 120px;
+    padding: 50px;
+
 
 }
 
@@ -20,16 +24,15 @@
 
 #opac {
     color: aliceblue;
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-bottom: 50px;
+    margin: 0px;
+    padding-bottom: 30px;
 
 }
 
 body {
     font-family: "Poppins", sans-serif;
     text-align: center;
-    margin: 70px 90px 70px 90px;
+
 
 }
 
@@ -96,6 +99,12 @@ h2 {
 
 .flex {
     display: flex;
+    gap: 20px;
+    flex-direction: row;
+
+
+
+
 
 }
 
@@ -103,36 +112,32 @@ h2 {
     background-color: antiquewhite;
     text-align: left;
     border: 1px solid white;
-    margin-left: 150px;
-    margin-right: 10px;
+
+    padding: 20px;
+
     border-radius: 10px;
-    padding-left: 20px;
-    padding-top: 15px;
-    width: 500px;
-    height: 350px;
+
 
 }
 
 .second {
     background-color: rgb(223, 217, 208);
     text-align: left;
-    padding-left: 20px;
-    padding-top: 15px;
-    width: 500px;
+
+    padding: 20px;
     border: 1px solid white;
     border-radius: 10px;
-    margin-right: 10px;
+
 }
 
 .third {
     background-color: rgb(200, 200, 200);
     text-align: left;
     border: 1px solid white;
-    padding-left: 20px;
-    padding-top: 15px;
-    width: 500px;
+
+    padding: 20px;
     border-radius: 10px;
-    margin-right: 150px;
+
 }
 
 
@@ -250,4 +255,83 @@ footer {
 .foot {
     font-size: small;
     color: teal;
+}
+
+@media screen and (max-width:576px) {
+    .top {
+        padding-top: 10px;
+
+    }
+
+    .plan {
+        margin: 0px;
+    }
+
+    .flex,
+    .flexx {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+
+    }
+
+
+
+    .flexx {
+
+
+        margin: 10px;
+
+    }
+
+    .need {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 0px;
+
+
+
+    }
+
+    .depend,
+    .opacity1 {
+        text-align: justify;
+    }
+
+
+
+    .need img {
+        width: 70%;
+        margin-top: 30px;
+        margin-right: 150px;
+        margin-bottom: 30px;
+
+    }
+
+    .how {
+        margin: 50px;
+        margin-top: 0px;
+    }
+
+
+
+    .how-to {
+        width: 350px;
+
+        margin: 10px;
+
+    }
+
+
+
+
+    .email-back {
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .body {}
 }
